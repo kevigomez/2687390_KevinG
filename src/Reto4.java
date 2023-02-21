@@ -1,7 +1,7 @@
 
 import java.util.Scanner;  
 import java.util.Random;
-public class Aleatorio {
+public class Reto4 {
     public static void main(String[] args) {
         Random random = new Random();
         Scanner lectura = new Scanner(System.in);
