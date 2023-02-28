@@ -8,7 +8,7 @@ public class Presupuesto {
         op = 1;
         contador = 0;
 
-        while (op==1 && contador == 0){
+        while (op==1 || contador <= 3){
             System.out.println("Ingrese el gasto");
             spent = lectura.nextInt();
             budget = budget - spent ;
